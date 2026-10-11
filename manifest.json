@@ -1,0 +1,15 @@
+{
+  "game": "Tribute",
+  "version": "2026-10-11 19:14",
+  "base": "https://raw.githubusercontent.com/RedDjinnPro/tribute-tts/main/",
+  "assets": {
+    "cards/battle-common.jpg": "b932c9d94b",
+    "cards/back-common.jpg": "61f63d7fba",
+    "cards/battle-rare.jpg": "c887165c4b",
+    "cards/back-rare.jpg": "655e969d99",
+    "cards/battle-elite.jpg": "41abb9e6a8",
+    "cards/back-elite.jpg": "4a2f23c732",
+    "cards/battle-epic.jpg": "51e6f8cb81",
+    "cards/back-epic.jpg": "034df45316"
+  }
+}
