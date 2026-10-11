@@ -1,6 +1,6 @@
 {
   "game": "Tribute",
-  "version": "2026-10-11 20:03",
+  "version": "2026-10-11 21:55",
   "base": "https://raw.githubusercontent.com/RedDjinnPro/tribute-tts/main/",
   "assets": {
     "cards/back.jpg": "89bc149e9c",
@@ -118,12 +118,13 @@
     "tokens/green-spent.png": "689dd9a50b",
     "tokens/bronze.png": "f5b650d9b2",
     "tokens/bronze-spent.png": "c0ff2c6873",
-    "tokens/wound-1.png": "5b445cb9c7",
-    "tokens/wound-2.png": "13b0e8f8d0",
-    "tokens/wound-5.png": "29c3897c5b",
+    "tokens/wound-1.png": "c87621e20d",
+    "tokens/wound-2.png": "b5dd2bfc5d",
+    "tokens/wound-5.png": "4778b5508e",
     "tokens/wound-10.png": "23a310e80c",
     "tokens/burn.png": "b39dc68695",
     "tokens/active.png": "81a0f78d69",
-    "tokens/activated.png": "ae397ff42c"
+    "tokens/activated.png": "ae397ff42c",
+    "tokens/temple.png": "8daf830a43"
   }
 }
