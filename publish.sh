@@ -13,12 +13,23 @@ else
 fi
 git add -A
 if git diff --cached --quiet; then
-  echo "Nothing changed since the last publish."
+  echo "No new files since the last publish."
 else
   git commit -q -m "Publish $(date '+%Y-%m-%d %H:%M')"
+fi
+# Push every time: a commit whose push failed earlier would otherwise sit unpushed forever.
+git config http.postBuffer 524288000
+if [ -n "$(git log --oneline @{u}..HEAD 2>/dev/null)" ] || ! git rev-parse @{u} >/dev/null 2>&1; then
   echo "Pushing to GitHub..."
-  git push -q
+  if ! git push -u -q origin HEAD; then
+    echo ""
+    echo "PUSH FAILED: GitHub did not receive this export, so TTS will report missing images."
+    echo "The save was NOT installed. Fix the error above, then run ./publish.sh again."
+    exit 1
+  fi
   echo "Published."
+else
+  echo "GitHub is already up to date."
 fi
 SAVED=0
 for D in "$HOME/Documents/My Games/Tabletop Simulator/Saves" "$HOME/OneDrive/Documents/My Games/Tabletop Simulator/Saves"; do
