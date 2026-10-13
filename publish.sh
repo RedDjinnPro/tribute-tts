@@ -12,6 +12,12 @@ else
   powershell.exe -NoProfile -Command "Expand-Archive -Force -LiteralPath '$(cygpath -w "$ZIP")' -DestinationPath '$(cygpath -w "$PWD")'"
 fi
 git add -A
+# Publishing from more than one PC: every export is a complete snapshot, so the newest one wins.
+# Move onto GitHub's latest commit WITHOUT touching the unpacked files, then commit them on top (a plain fast-forward).
+if git fetch -q origin 2>/dev/null && git rev-parse -q --verify "origin/$(git rev-parse --abbrev-ref HEAD)" >/dev/null; then
+  git reset -q --soft "origin/$(git rev-parse --abbrev-ref HEAD)"
+  git add -A
+fi
 if git diff --cached --quiet; then
   echo "No new files since the last publish."
 else
@@ -31,6 +37,27 @@ if [ -n "$(git log --oneline @{u}..HEAD 2>/dev/null)" ] || ! git rev-parse @{u} 
 else
   echo "GitHub is already up to date."
 fi
+# The save loads its images from GitHub Pages, which rebuilds after each push: wait until it serves this version.
+BASE=$(grep -o '"base": *"[^"]*"' manifest.json | head -n 1 | cut -d'"' -f4)
+VER=$(grep -o '"version": *"[^"]*"' manifest.json | head -n 1 | cut -d'"' -f4)
+case "$BASE" in *github.io*)
+  if command -v curl >/dev/null 2>&1; then
+    echo "Waiting for GitHub Pages to serve $VER..."
+    LIVE=0
+    for i in $(seq 1 40); do
+      if curl -fsSL "$BASE""manifest.json?t=$(date +%s)" 2>/dev/null | grep -qF "$VER"; then LIVE=1; break; fi
+      sleep 6
+    done
+    if [ "$LIVE" = "1" ]; then echo "Live: $BASE"; else
+      echo ""
+      echo "GitHub Pages is not serving this version yet (checked for 4 minutes)."
+      echo "First publish? Turn Pages on once: github.com > the repo > Settings > Pages >"
+      echo "  Source: Deploy from a branch > Branch: main, folder: / (root) > Save."
+      echo "Then wait a minute and load the save; TTS shows no images until Pages is live."
+      echo ""
+    fi
+  fi;;
+esac
 SAVED=0
 for D in "$HOME/Documents/My Games/Tabletop Simulator/Saves" "$HOME/OneDrive/Documents/My Games/Tabletop Simulator/Saves"; do
   if [ -d "$D" ]; then
