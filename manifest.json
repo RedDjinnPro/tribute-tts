@@ -1,6 +1,6 @@
 {
   "game": "Tribute",
-  "version": "2026-10-17 17:49",
+  "version": "2026-10-17 22:54",
   "base": "https://reddjinnpro.github.io/tribute-tts/",
   "assets": {
     "cards/back.jpg": "89bc149e9c",
@@ -158,8 +158,8 @@
     "tokens/active.png": "81a0f78d69",
     "tokens/activated.png": "ae397ff42c",
     "dice/focus-black.png": "6971985d80",
-    "dice/focus-white.png": "11b68dd6a9",
-    "dice/focus-gold.png": "6c85337cca",
+    "dice/focus-white.png": "95584a1242",
+    "dice/focus-gold.png": "904d80a443",
     "dice/focus-d6.obj": "69a3e2dd8f"
   }
 }
