@@ -1,6 +1,6 @@
 {
   "game": "Tribute",
-  "version": "2026-10-18 08:01",
+  "version": "2026-10-18 22:31",
   "base": "https://reddjinnpro.github.io/tribute-tts/",
   "assets": {
     "cards/back.jpg": "89bc149e9c",
@@ -67,7 +67,7 @@
     "ui/portrait/sera.jpg": "ef77caec76",
     "tokens/devoted/torvald.jpg": "25002791a7",
     "ui/portrait/torvald.jpg": "8efb20a887",
-    "tokens/devoted/oda.jpg": "f199e0d2b6",
+    "tokens/devoted/oda.jpg": "464cdce4b8",
     "ui/portrait/oda.jpg": "ad1d0f6b41",
     "tokens/devoted/halix.jpg": "956d85725d",
     "ui/portrait/halix.jpg": "8bdf0d6a7f",
@@ -146,8 +146,8 @@
     "tokens/bronze.png": "f5b650d9b2",
     "tokens/bronze-spent.png": "c0ff2c6873",
     "tokens/wound-1.png": "c87621e20d",
-    "tokens/wound-2.png": "b5dd2bfc5d",
-    "tokens/wound-5.png": "4778b5508e",
+    "tokens/wound-2.png": "e416d81163",
+    "tokens/wound-5.png": "e1c18f672d",
     "tokens/wound-10.png": "23a310e80c",
     "tokens/burn.png": "b39dc68695",
     "tokens/active.png": "81a0f78d69",
