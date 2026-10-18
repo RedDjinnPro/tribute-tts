@@ -1,6 +1,6 @@
 {
   "game": "Tribute",
-  "version": "2026-10-18 00:08",
+  "version": "2026-10-18 01:54:30",
   "base": "https://reddjinnpro.github.io/tribute-tts/",
   "assets": {
     "cards/back.jpg": "89bc149e9c",
@@ -50,7 +50,7 @@
     "warzones/grosha.jpg": "d5e8b1f6f6",
     "warzones/adelric.jpg": "e6fb802f15",
     "warzones/kelda.jpg": "8c8951c2d2",
-    "warzones/essa.jpg": "9c01430574",
+    "warzones/essa.jpg": "70a541417b",
     "warzones/cazimir.jpg": "fcba29e74f",
     "warzones/sigrun.jpg": "45128ff9f7",
     "warzones/torm.jpg": "d0dfa83e69",
