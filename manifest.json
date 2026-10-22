@@ -1,6 +1,6 @@
 {
   "game": "Tribute",
-  "version": "2026-10-22 17:26",
+  "version": "2026-10-22 17:58:19",
   "base": "https://reddjinnpro.github.io/tribute-tts/",
   "assets": {
     "cards/back.jpg": "89bc149e9c",
@@ -158,6 +158,10 @@
     "dice/focus-d6.obj": "69a3e2dd8f",
     "floor/floor.jpg": "85977e7831",
     "floor/floor.obj": "5d0f8ce4cb",
-    "floor/floor-normal.png": "fef7f12ec6"
+    "floor/floor-normal.png": "fef7f12ec6",
+    "cards/back-champion.jpg": "fc7909ab4d",
+    "cards/back-sentinel.jpg": "cf24b2da20",
+    "cards/back-arcanist.jpg": "921d75fc8c",
+    "cards/back-outrider.jpg": "57bf066782"
   }
 }
