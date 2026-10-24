@@ -1,6 +1,6 @@
 {
   "game": "Tribute",
-  "version": "2026-10-23 05:24",
+  "version": "2026-10-24 03:04:54",
   "base": "https://reddjinnpro.github.io/tribute-tts/",
   "assets": {
     "cards/back.jpg": "89bc149e9c",
@@ -166,6 +166,10 @@
     "dice/focus-d6.obj": "824ae78b64",
     "floor/floor.jpg": "85977e7831",
     "floor/floor.obj": "5d0f8ce4cb",
-    "floor/floor-normal.png": "fef7f12ec6"
+    "floor/floor-normal.png": "fef7f12ec6",
+    "minis/ruvenna/ruvenna_tts.obj": "717bf8bb93",
+    "minis/ruvenna/ruvenna_diffuse.png": "940fbb17a8",
+    "minis/ruvenna/ruvenna_normal.png": "134ec5f431",
+    "minis/ruvenna/ruvenna_collider.obj": "678f82d7d7"
   }
 }
