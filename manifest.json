@@ -1,6 +1,6 @@
 {
   "game": "Tribute",
-  "version": "2026-10-24 03:04:54",
+  "version": "2026-10-24 08:53:30",
   "base": "https://reddjinnpro.github.io/tribute-tts/",
   "assets": {
     "cards/back.jpg": "89bc149e9c",
@@ -139,7 +139,7 @@
     "ui/portrait/nyssa.jpg": "52b74ba18a",
     "tokens/devoted/orphan.jpg": "4eb6dcd26f",
     "ui/portrait/orphan.jpg": "22a4593d4c",
-    "minis/sable/sable_tts.obj": "11ba2c5f10",
+    "minis/sable/sable_tts.obj": "c8c3f29e60",
     "minis/sable/sable_diffuse.png": "adbc338689",
     "minis/sable/sable_normal.png": "b85b702fc6",
     "minis/sable/sable_collider.obj": "b6b5aabb4f",
@@ -167,9 +167,21 @@
     "floor/floor.jpg": "85977e7831",
     "floor/floor.obj": "5d0f8ce4cb",
     "floor/floor-normal.png": "fef7f12ec6",
-    "minis/ruvenna/ruvenna_tts.obj": "717bf8bb93",
+    "minis/ruvenna/ruvenna_tts.obj": "46ce72cef1",
     "minis/ruvenna/ruvenna_diffuse.png": "940fbb17a8",
     "minis/ruvenna/ruvenna_normal.png": "134ec5f431",
-    "minis/ruvenna/ruvenna_collider.obj": "678f82d7d7"
+    "minis/ruvenna/ruvenna_collider.obj": "678f82d7d7",
+    "minis/varek/varek_tts.obj": "fe03907431",
+    "minis/varek/varek_diffuse.png": "3bfb6d60bc",
+    "minis/varek/varek_normal.png": "481c203086",
+    "minis/varek/varek_collider.obj": "be73edc6cb",
+    "minis/edouard/edouard_tts.obj": "d39a048508",
+    "minis/edouard/edouard_diffuse.png": "1cdd8f8b99",
+    "minis/edouard/edouard_normal.png": "166b6f2eef",
+    "minis/edouard/edouard_collider.obj": "cbc7f60edb",
+    "minis/bard/bard_tts.obj": "47489c6ee6",
+    "minis/bard/bard_diffuse.png": "cb367054dd",
+    "minis/bard/bard_normal.png": "69ef16f862",
+    "minis/bard/bard_collider.obj": "2aca194208"
   }
 }
