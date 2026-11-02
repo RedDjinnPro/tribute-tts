@@ -1,6 +1,6 @@
 {
   "game": "Tribute",
-  "version": "2026-10-31 01:27",
+  "version": "2026-11-02 11:19",
   "base": "https://reddjinnpro.github.io/tribute-tts/",
   "pool": "f4c6452858",
   "assets": {
@@ -66,6 +66,7 @@
     "warzones/hollis.jpg": "b516358ccd",
     "warzones/nyssa.jpg": "64a07e550b",
     "warzones/orphan.jpg": "79e1717ce8",
+    "warzones/aykin.jpg": "0842597d9f",
     "models/devoted-puck.obj": "65635f8980",
     "tokens/devoted/varek.jpg": "4269851e4a",
     "ui/portrait/varek.jpg": "b323f6fb6b",
@@ -187,6 +188,10 @@
     "minis/varah/varah_diffuse.png": "35aa3c0f2d",
     "minis/varah/varah_normal.png": "bfabc40756",
     "minis/varah/varah_collider.obj": "7fd2573abc",
+    "minis/aykin/aykin_tts.obj": "cdfcdbbe89",
+    "minis/aykin/aykin_diffuse.png": "25bb15209c",
+    "minis/aykin/aykin_normal.png": "f475dd161f",
+    "minis/aykin/aykin_collider.obj": "1eea2ee059",
     "ui/kit/bg_mode.jpg": "63e28df026",
     "ui/kit/bg_draft.jpg": "2c13e76bc4",
     "ui/kit/bg_field.jpg": "702ee50d24",
