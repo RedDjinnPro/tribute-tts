@@ -9,4 +9,4 @@ Published by the project's **Tribute - TTS Export** page. Don't edit these files
 
 The save loads every image from **GitHub Pages** (`https://<owner>.github.io/<repo>/`), not raw.githubusercontent.com, which rate-limits a table's burst of image requests. Pages must be on: Settings › Pages › Deploy from a branch › main / (root).
 
-To publish a new export: `cd ~/tribute-tts && ./publish.sh`
+To publish a new export: `cd ~/tribute-tts && bash publish.sh`
